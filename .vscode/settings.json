@@ -29,6 +29,12 @@
             "driver": "SQLite",
             "name": "conexionviernes",
             "database": "${workspaceFolder:SQL}/01_Sesion_06/basedatoss6ejemplo.db"
+        },
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "conexions6",
+            "database": "${workspaceFolder:SQL_NovaMarket}/01_Sesion_06/basededatosyesica.db"
         }
     ],
     "sqltools.useNodeRuntime": true
