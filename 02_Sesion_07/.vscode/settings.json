@@ -1,0 +1,10 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "database": "${workspaceFolder:02_Sesion_07}/Novamarket_S07.db",
+            "name": "yesicaruizS07"
+        }
+    ]
+}
