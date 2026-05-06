@@ -20,35 +20,11 @@ PRAGMA table_info('DimProducto');
 --ya ejecutado
 -- ══ BLOQUE C — Insertar y Consultar Datos ══════════════════════
 -- Escribe aquí los INSERT del Bloque C según la guía:
-INSERT INTO DimProducto (ProductoID, Nombre, Categoria, Precio, Costo)
-VALUES (
-        1,
-        'Laptop Gamer Z',
-        'Laptops',
-        2500.00,
-        1800.00
-    ),
-    (
-        2,
-        'Smartphone Pro',
-        'Smartphones',
-        1200.00,
-        800.00
-    ),
-    (
-        3,
-        'Smartwatch Q',
-        'Wearables',
-        300.00,
-        180.00
-    ),
-    (
-        4,
-        'Audifonos Bluetooth',
-        'Audio',
-        150.00,
-        90.00
-    );
+INSERT INTO DimProducto (Nombre, Categoria, Precio, Costo)
+VALUES ('Laptop Gamer Z', 'Laptops', 2500.00, 1800.00),
+    ('Smartphone Pro', 'Smartphones', 1200.00, 800.00),
+    ('Smartwatch Q', 'Wearables', 300.00, 180.00),
+    ('Audifonos Bluetooth', 'Audio', 150.00, 90.00);
 SELECT COUNT(*)
 FROM DimProducto;
 --Bloque ejecutado
