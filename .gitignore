@@ -9,6 +9,8 @@ _Soluciones_Privadas/
 # Pueden incluir su nombre (ej: Novamarket_S07_Anyi.db)
 !**/*Base_Datos_S06*.db
 !**/*Novamarket_S07*.db
+!**/*yesica*.db
+!**/*Yesica*.db
 
 # OS Files
 .DS_Store
