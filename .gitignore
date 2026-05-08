@@ -1,5 +1,6 @@
 # Antigravity - Teacher Solutions Shield
 _Soluciones_Privadas/
+_Gestion_Docente/
 
 # SQLite Databases
 # 🔒 Por seguridad, ignoramos las bases de datos por defecto.
@@ -11,6 +12,7 @@ _Soluciones_Privadas/
 !**/*Novamarket_S07*.db
 !**/*yesica*.db
 !**/*Yesica*.db
+!**/*Novamarket_S08S09*.db
 
 # OS Files
 .DS_Store
