@@ -41,6 +41,12 @@
             "driver": "SQLite",
             "name": "ConexionS8y9",
             "database": "${workspaceFolder:SQL}/03_Sesion_08_09/Novamarket_S08S09.db"
+        },
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "database": "${workspaceFolder:SQL_NovaMarket}/03_Sesion_08_09/Novamarket_S08S09.db",
+            "name": "Conexio-08_09yesica"
         }
     ],
     "sqltools.useNodeRuntime": true
